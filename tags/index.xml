@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Intermezzo: A Fuzzy Story</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://crll01.github.io/tags/</link>
     <description>Recent content in Tags on Intermezzo: A Fuzzy Story</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://crll01.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Oscar Wilde</title>
-      <link>http://localhost:1313/tags/oscar-wilde/</link>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/oscar-wilde/</guid>
+      <title>Lacanian</title>
+      <link>https://crll01.github.io/tags/lacanian/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/tags/lacanian/</guid>
       <description></description>
     </item>
     <item>
       <title>Power Structures</title>
-      <link>http://localhost:1313/tags/power-structures/</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/power-structures/</guid>
+      <link>https://crll01.github.io/tags/power-structures/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/tags/power-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Rationality</title>
-      <link>http://localhost:1313/tags/rationality/</link>
-      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rationality/</guid>
+      <link>https://crll01.github.io/tags/rationality/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/tags/rationality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Big Other</title>
+      <link>https://crll01.github.io/tags/the-big-other/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/tags/the-big-other/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oscar Wilde</title>
+      <link>https://crll01.github.io/tags/oscar-wilde/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/tags/oscar-wilde/</guid>
       <description></description>
     </item>
   </channel>
