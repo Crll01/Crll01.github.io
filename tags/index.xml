@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Intermezzo: A Fuzzy Story</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Intermezzo: A Fuzzy Story</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oscar Wilde</title>
+      <link>http://localhost:1313/tags/oscar-wilde/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oscar-wilde/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power Structures</title>
+      <link>http://localhost:1313/tags/power-structures/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/power-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rationality</title>
+      <link>http://localhost:1313/tags/rationality/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rationality/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
