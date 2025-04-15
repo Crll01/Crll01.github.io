@@ -53,6 +53,10 @@ url = "/posts"
 name = "books"
 url = "/books"
 
+[[params.menu]]
+name = "nonsenses"
+url = "/nonsenses"
+
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
