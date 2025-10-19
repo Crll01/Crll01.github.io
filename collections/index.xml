@@ -9,18 +9,18 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://crll01.github.io/collections/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>🐱</title>
+      <link>https://crll01.github.io/collections/catty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://crll01.github.io/collections/catty/</guid>
+      <description>&lt;p&gt;pending&lt;/p&gt;&#xA;&lt;p&gt;10.19&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Wittgenstein_01</title>
       <link>https://crll01.github.io/collections/001/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://crll01.github.io/collections/001/</guid>
       <description>&lt;p&gt;（娛樂）&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;World（世界）  = All that is the case（所有發生的事情）  = 所有&#xA;facts（事實）&lt;/li&gt;&#xA;&lt;li&gt;每個 fact（事實）  = 某個 state of affairs（狀況）存在  &lt;/li&gt;&#xA;&lt;li&gt;每個 state of affairs（狀況）  = 若干&#xA;objects（事物）以某種方式組合而成&lt;/li&gt;&#xA;&lt;li&gt;objects（事物）  = 世界的基本單元，不可再分  &lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;&#34; src=&#34;https://crll01.github.io/collections/images/clipboard-1282383243.png&#34; width=&#34;1235px&#34; height=&#34;681px&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Wittgenstein_01</title>
-      <link>https://crll01.github.io/collections/catty/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://crll01.github.io/collections/catty/</guid>
-      <description>&lt;p&gt;pending&lt;/p&gt;&#xA;&lt;p&gt;10.19&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
