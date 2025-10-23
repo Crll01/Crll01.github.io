@@ -45,8 +45,6 @@
   </url><url>
     <loc>https://crll01.github.io/nonsenses/album/</loc>
   </url><url>
-    <loc>https://crll01.github.io/nonsenses/rei1/</loc>
-  </url><url>
     <loc>https://crll01.github.io/collections/001/</loc>
   </url><url>
     <loc>https://crll01.github.io/nonsenses/001/</loc>
@@ -114,5 +112,7 @@
     <loc>https://crll01.github.io/nonsenses/alicemunro/nettle/</loc>
   </url><url>
     <loc>https://crll01.github.io/nonsenses/actingout/</loc>
+  </url><url>
+    <loc>https://crll01.github.io/nonsenses/rei1/</loc>
   </url>
 </urlset>
