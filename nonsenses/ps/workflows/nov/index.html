@@ -42,12 +42,13 @@
 <meta property="og:url" content="https://crll01.github.io/nonsenses/ps/workflows/nov/">
   <meta property="og:site_name" content="Vitreous">
   <meta property="og:title" content="Nov.">
-  <meta property="og:description" content="2025.11.1
-2025.11.2
-2025.11.3
-2025.11.4
-2025.11.5
-2025.11.6">
+  <meta property="og:description" content="title: “workflows” # 🪩 Same Password：
+打開 Nov 11.1
+11.2
+11.3
+11.4
+11.5
+11.6">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
@@ -139,12 +140,38 @@
       
 <main class="container">
   <h1>Nov.</h1>
-  <p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/111/">2025.11.1</a></p>
-<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/112/">2025.11.2</a></p>
-<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/113/">2025.11.3</a></p>
-<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/114/">2025.11.4</a></p>
-<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/115/">2025.11.5</a></p>
-<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/116/">2025.11.6</a></p>
+  <hr>
+<h2 class="heading" id="title-workflows">
+  title: &ldquo;workflows&rdquo;
+  <a class="anchor" href="#title-workflows">#</a>
+</h2>
+<div id="gate">
+  <h2>🪩</h2>
+  <p>Same Password：</p>
+  <input type="password" id="pwd" placeholder="輸入密碼...">
+  <button onclick="checkPassword()">打開</button>
+</div>
+<div id="real-content" style="display:none; margin-top:2em;">
+<h2>Nov</h2>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/111/">11.1</a></p>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/112">11.2</a></p>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/113">11.3</a></p>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/114">11.4</a></p>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/115">11.5</a></p>
+<p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/116">11.6</a></p>
+</div>
+<script>
+  const password = "1998";
+  function checkPassword() {
+    const input = document.getElementById("pwd").value;
+    if (input === password) {
+      document.getElementById("gate").style.display = "none";
+      document.getElementById("real-content").style.display = "block";
+    } else {
+      alert("ERROR");
+    }
+  }
+</script>
 
 </main>
 
