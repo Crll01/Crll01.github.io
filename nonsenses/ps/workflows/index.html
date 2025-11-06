@@ -42,7 +42,8 @@
 <meta property="og:url" content="https://crll01.github.io/nonsenses/ps/workflows/">
   <meta property="og:site_name" content="Vitreous">
   <meta property="og:title" content="workflows">
-  <meta property="og:description" content="November">
+  <meta property="og:description" content="🪩 妳的出生年份是：
+打開 ## Workflows November">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
@@ -134,13 +135,28 @@
       
 <main class="container">
   <h1>workflows</h1>
-  <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+  <div id="gate">
+  <h2>🪩</h2>
+  <p>妳的出生年份是：</p>
+  <input type="password" id="pwd" placeholder="輸入密碼...">
+  <button onclick="checkPassword()">打開</button>
+</div>
+<div id="real-content" style="display:none; margin-top:2em;">
+  ## Workflows  
 <p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/">November</a></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-
+</div>
+<script>
+  const password = "1998";  // ← 密碼你自己改
+  function checkPassword() {
+    const input = document.getElementById("pwd").value;
+    if (input === password) {
+      document.getElementById("gate").style.display = "none";
+      document.getElementById("real-content").style.display = "block";
+    } else {
+      alert("不對喔～");
+    }
+  }
+</script>
 </main>
 
     </main>
