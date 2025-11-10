@@ -154,10 +154,14 @@ Week1
   <p><a href="https://crll01.github.io/nonsenses/ps/workflows/nov/110/">11.10</a></p> 
 </div>
 <script>
-  const password = "Soon-to-be Dr., congrats!always so proud of you.";
+  const passwords = [
+    "Soon-to-be Dr., congrats!always so proud of you.- ",
+    "easyenter"
+  ];
+
   function checkPassword() {
     const input = document.getElementById("pwd").value;
-    if (input === password) {
+    if (passwords.includes(input)) {
       document.getElementById("gate").style.display = "none";
       document.getElementById("real-content").style.display = "block";
     } else {
