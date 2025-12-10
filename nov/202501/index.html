@@ -32,7 +32,7 @@
 
 <title>
     
-     | Vitreous
+    貓倉庫 | Vitreous
     
 </title>
 
@@ -40,8 +40,8 @@
 
 <meta property="og:url" content="https://crll01.github.io/nov/202501/">
   <meta property="og:site_name" content="Vitreous">
-  <meta property="og:title" content="Vitreous">
-  <meta property="og:description" content="A notebook of memory &amp; structural archives">
+  <meta property="og:title" content="貓倉庫">
+  <meta property="og:description" content="Next 累">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="nov">
@@ -129,20 +129,44 @@
 
 
 <div class="breadcrumbs"><a href="/">Home</a><span class="breadcrumbs-separator">/</span><a href="/nov/">surplus.</a><span class="breadcrumbs-separator">/</span>
-        <a href="/nov/202501/"></a></div>
+        <a href="/nov/202501/">貓倉庫</a></div>
 
 
 <div >
   <article>
     <header class="single-intro-container">
         
-        <h1 class="single-title"></h1>
+        <h1 class="single-title">貓倉庫</h1>
         
         
     </header>
     
     <div class="single-content">
-      
+      <div id="gate">
+  <h2></h2>
+  <p></p>
+  <input type="password" id="pwd" placeholder="Enter the password">
+  <button onclick="checkPassword()">Next</button>
+</div>
+<div id="real-content" style="display:none; margin-top:2em;">
+  <h2></h2>
+<p>累</p>
+</div>
+<script>
+  const passwords = [,
+    "Farewell Ni-chōme"
+  ];
+
+  function checkPassword() {
+    const input = document.getElementById("pwd").value;
+    if (passwords.includes(input)) {
+      document.getElementById("gate").style.display = "none";
+      document.getElementById("real-content").style.display = "block";
+    } else {
+      alert("ERROR");
+    }
+  }
+</script>
     </div>
   </article>
 
@@ -160,18 +184,18 @@
 
         <div class="single-pagination-prev">
             
-            <div class="single-pagination-container-prev">
-                <div class="single-pagination-text">←</div>
-                <div class="single-pagination-text">
-                    <a href="/nov/202504/">
-                        
-                    </a>
-                </div>
-            </div>
-            
         </div>
 
         <div class="single-pagination-next">
+            
+            <div class="single-pagination-container-next">
+                <div class="single-pagination-text">
+                    <a href="/nov/202503/">
+                        秋千
+                    </a>
+                </div>
+                <div class="single-pagination-text">→</div>
+            </div>
             
         </div>
 
