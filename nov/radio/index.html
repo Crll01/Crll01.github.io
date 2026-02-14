@@ -41,8 +41,7 @@
 <meta property="og:url" content="https://crll01.github.io/nov/radio/">
   <meta property="og:site_name" content="Vitreous">
   <meta property="og:title" content="Vitreous">
-  <meta property="og:description" content="哎，趁着毕业前用学校的保险 Aetna吧 去查查DEXA和LFT 。老当益壮啊。
-我也该养生了，我已经是一位25岁的中老年了，今天之后再也不在思慕雪里加白砂糖了。明天还是后天要去看我的Psychologist，真不知道会发生什么。">
+  <meta property="og:description" content="🔒 白果园 白果园">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="nov">
@@ -143,8 +142,118 @@
     </header>
     
     <div class="single-content">
-      <p>哎，趁着毕业前用学校的保险 Aetna吧 <a href="https://www.uvahealth.com/specialties/primary-care"><em><strong>去查查DEXA和LFT</strong></em></a> 。老当益壮啊。</p>
-<p>我也该养生了，我已经是一位25岁的中老年了，今天之后再也不在思慕雪里加白砂糖了。明天还是后天要去看我的Psychologist，真不知道会发生什么。</p>
+      <!-- Password Lock (client-side) -->
+<style>
+  .lock-wrap {
+    max-width: 720px;
+    margin: 2.5rem auto;
+    padding: 1.25rem 1.25rem 1.5rem;
+    border: 1px solid rgba(0,0,0,0.12);
+    border-radius: 14px;
+    background: rgba(250,250,250,0.7);
+  }
+  .lock-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+  .lock-hint {
+    margin: 0 0 1rem;
+    opacity: 0.85;
+    line-height: 1.55;
+  }
+  .lock-row {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .lock-input {
+    flex: 1 1 220px;
+    padding: 0.7rem 0.85rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.18);
+    font-size: 1rem;
+  }
+  .lock-btn {
+    padding: 0.72rem 0.95rem;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.18);
+    cursor: pointer;
+    font-weight: 600;
+    background: white;
+  }
+  .lock-msg {
+    margin-top: 0.85rem;
+    font-size: 0.98rem;
+    min-height: 1.2em;
+  }
+  .lock-msg.ok { color: #0a7a2f; }
+  .lock-msg.err { color: #b00020; }
+
+  /* Protected content is hidden until unlocked */
+  #protected { display: none; }
+</style>
+<div class="lock-wrap" id="lockBox">
+  <div class="lock-title">🔒 白果园</div>
+  <p class="lock-hint">
+    白果园
+  </p>
+  <div class="lock-row">
+    <input class="lock-input" id="pw" type="password" placeholder="Password..." autocomplete="current-password" />
+    <button class="lock-btn" id="unlockBtn" type="button">Unlock</button>
+  </div>
+  <div class="lock-msg" id="msg"></div>
+</div>
+<div id="protected">
+  <p>哎，趁着毕业前用学校的保险 Aetna吧 <a href="https://www.uvahealth.com/specialties/primary-care"><strong><em>去查查DEXA和LFT</em></strong></a> 。老当益壮啊。</p>
+  <p>我也该养生了，我已经是一位25岁的中老年了，今天之后再也不在思慕雪里加白砂糖了。明天还是后天要去看我的Psychologist，真不知道会发生什么。</p>
+</div>
+<script>
+
+  const PASSWORD = "password";
+
+  // 可选：是否把“已解锁状态”记住一段时间（避免每次刷新都输）
+  // 记住会写入 localStorage：同一浏览器同一设备有效
+  const REMEMBER = true;
+  const STORAGE_KEY = "page_unlocked_v1";
+
+  // ====== LOGIC ======
+  const lockBox = document.getElementById("lockBox");
+  const protectedEl = document.getElementById("protected");
+  const pw = document.getElementById("pw");
+  const btn = document.getElementById("unlockBtn");
+  const msg = document.getElementById("msg");
+
+  function setMsg(text, ok) {
+    msg.textContent = text;
+    msg.className = "lock-msg " + (ok ? "ok" : "err");
+  }
+
+  function unlock() {
+    if (pw.value === PASSWORD) {
+      lockBox.style.display = "none";
+      protectedEl.style.display = "block";
+      setMsg("", true);
+      if (REMEMBER) localStorage.setItem(STORAGE_KEY, "1");
+    } else {
+      setMsg("False", false);
+      pw.focus();
+      pw.select();
+    }
+  }
+
+  // 自动解锁（如果之前记住了）
+  if (REMEMBER && localStorage.getItem(STORAGE_KEY) === "1") {
+    lockBox.style.display = "none";
+    protectedEl.style.display = "block";
+  }
+
+  btn.addEventListener("click", unlock);
+  pw.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") unlock();
+  });
+</script>
 
     </div>
   </article>
